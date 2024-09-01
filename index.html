@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="./src/style.css" />
+  <link rel="shortcut icon" href="src/fav.ico" type="image/x-icon" />
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./src/script.js" defer></script>
+  <title>Tela de Login</title>
+</head>
+
+<body>
+  <main>
+
+    <section class="container">
+      <h1 class="titulo">Registre-se</h1>
+
+      <div class="form">
+        <label for="usuario">Digite o nome de usuário:</label>
+        <input placeholder="Usuário" type="text" name="usuario" id="reg-usuario" />
+
+        <label for="senha">Digite sua senha:</label>
+        <input placeholder="Senha" type="password" name="senha" id="reg-senha" />
+        <button class="btn-entrar" onclick="registrar()">Registrar</button>
+      </div>
+      
+    </section>
+    
+    <section class="container">
+      <h1 class="titulo">Entrar</h1>
+      
+      <div class="form">
+        <label for="usuario">Digite o nome de usuário:</label>
+        <input placeholder="Usuário" type="text" name="usuario" id="usuario" />
+        
+        <label for="senha">Digite sua senha:</label>
+        <input placeholder="Senha" type="password" name="senha" id="senha" />
+        <button class="btn-entrar" onclick="entrar()">Entrar</button>
+      </div>
+      
+      
+    </section>
+    
+  </main>
+  <p>Usuários registrados são mostrados no console do navegador.</p>
+</body>
+
+</html>
